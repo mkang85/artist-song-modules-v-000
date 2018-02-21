@@ -10,10 +10,10 @@ module Memorable
     self.all.count
   end
 
-  module InstanceMethods 
+  module InstanceMethods
     def initialize
     self.class.all << self
     @songs = []
     end
-  end 
+  end
 end

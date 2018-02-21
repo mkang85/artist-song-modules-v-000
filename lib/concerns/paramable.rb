@@ -3,9 +3,9 @@ module Paramable
     name.downcase.gsub(' ', '-')
   end
 
-  # def initialize
-  #   self.class.all << self
-  #   @songs = []
-  # end
+  def initialize
+    self.class.all << self
+    @songs = []
+  end
 
 end

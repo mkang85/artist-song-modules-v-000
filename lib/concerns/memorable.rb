@@ -14,6 +14,5 @@ module Memorable
     def initialize
     self.class.all << self
     @songs = []
-    end
   end
 end

@@ -15,5 +15,6 @@ end
     def initialize
     self.class.all << self
     @songs = []
+    end
   end
 end

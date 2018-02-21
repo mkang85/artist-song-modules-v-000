@@ -12,4 +12,7 @@ module Memorable
     @@artists.count
   end
 
+  def all
+    @@artists
+  end
 end

@@ -1,8 +1,6 @@
 
 
 module Memorable
-  @@artists = []
-
 
   def reset_all
     self.all.clear
@@ -15,4 +13,5 @@ module Memorable
   def all
     @@artists
   end
+
 end
